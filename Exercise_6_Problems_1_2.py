@@ -44,6 +44,8 @@ print('Number of no-data values in column "TAVG":',tavg_nodata_count)
 
 tmin_nodata_count = None
 #YOUR CODE HERE 3
+tmin_nodata_count = data.iloc[:, 8].isnull().sum()
+
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # Print out the solution:
