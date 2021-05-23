@@ -85,6 +85,7 @@ print('Date of the first observation:',first_obs)
 last_obs = None
 
 # YOUR CODE HERE 6
+last_obs = data.iloc[day_count-1, 4]
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # Print out the solution:
